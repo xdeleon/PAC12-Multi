@@ -46,6 +46,9 @@
 		FDD75B1626CFE69900B26739 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B1526CFE69900B26739 /* Cards.swift */; };
 		FDD75B1726CFE69900B26739 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B1526CFE69900B26739 /* Cards.swift */; };
 		FDD75B1B26CFE78900B26739 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B1526CFE69900B26739 /* Cards.swift */; };
+		FDE935A026D00D4400D86CF8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDE9359F26D00D4400D86CF8 /* SDWebImageSwiftUI */; };
+		FDE935D926D00D5B00D86CF8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDE935D826D00D5B00D86CF8 /* SDWebImageSwiftUI */; };
+		FDE935DE26D00D6D00D86CF8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDE935DD26D00D6D00D86CF8 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE935A026D00D4400D86CF8 /* SDWebImageSwiftUI in Frameworks */,
 				FDD75A6B26CFD67A00B26739 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE935D926D00D5B00D86CF8 /* SDWebImageSwiftUI in Frameworks */,
 				FDD75A7126CFD69700B26739 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE935DE26D00D6D00D86CF8 /* SDWebImageSwiftUI in Frameworks */,
 				FDD75A7326CFD6A300B26739 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +291,7 @@
 			name = "PAC-12 Multi";
 			packageProductDependencies = (
 				FDD75A6A26CFD67A00B26739 /* SDWebImage */,
+				FDE9359F26D00D4400D86CF8 /* SDWebImageSwiftUI */,
 			);
 			productName = "PAC-12 Multi";
 			productReference = FDD759F526CF48D500B26739 /* PAC-12 Multi.app */;
@@ -305,6 +312,7 @@
 			name = "PAC-12 Desktop";
 			packageProductDependencies = (
 				FDD75A7026CFD69700B26739 /* SDWebImage */,
+				FDE935D826D00D5B00D86CF8 /* SDWebImageSwiftUI */,
 			);
 			productName = "PAC-12 Desktop";
 			productReference = FDD75A0C26CF496100B26739 /* PAC-12 Desktop.app */;
@@ -325,6 +333,7 @@
 			name = "PAC-12 Mobile";
 			packageProductDependencies = (
 				FDD75A7226CFD6A300B26739 /* SDWebImage */,
+				FDE935DD26D00D6D00D86CF8 /* SDWebImageSwiftUI */,
 			);
 			productName = "PAC-12 Mobile";
 			productReference = FDD75A2226CF497F00B26739 /* PAC-12 Mobile.app */;
@@ -361,6 +370,7 @@
 			mainGroup = FDD759EC26CF48D500B26739;
 			packageReferences = (
 				FDD75A6926CFD67A00B26739 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				FDE9359E26D00D4400D86CF8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = FDD759F626CF48D500B26739 /* Products */;
 			projectDirPath = "";
@@ -762,6 +772,14 @@
 				minimumVersion = 5.11.1;
 			};
 		};
+		FDE9359E26D00D4400D86CF8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -779,6 +797,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FDD75A6926CFD67A00B26739 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
+		};
+		FDE9359F26D00D4400D86CF8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDE9359E26D00D4400D86CF8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		FDE935D826D00D5B00D86CF8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDE9359E26D00D4400D86CF8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		FDE935DD26D00D6D00D86CF8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDE9359E26D00D4400D86CF8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

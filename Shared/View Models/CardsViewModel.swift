@@ -14,6 +14,10 @@ final class CardsViewModel: ObservableObject {
     @Published var schools = [School]()
     @Published var vodPrograms = [Program]()
 
+    @Published var showAlert = false
+    @Published var alertTitle = ""
+    @Published var alertMessage = ""
+
     private var currentPage = 0
     private var total = 0
     private var fetchInProgress = false
@@ -29,7 +33,7 @@ final class CardsViewModel: ObservableObject {
 
     //MARK: Utility Functions
 
-    private func formattedTimeLength(seconds: Int) -> String {
+    func formattedTimeLength(seconds: Int) -> String {
         var timeLength = "00:00"
 
         if seconds > 0 {
@@ -69,7 +73,6 @@ final class CardsViewModel: ObservableObject {
     }
 
     //MARK: Data Access
-
 
     private func getVideos() {
         guard !fetchInProgress else {
@@ -146,7 +149,6 @@ final class CardsViewModel: ObservableObject {
                     }
                 }
 
-
 //                DispatchQueue.main.async {
 //                    self.tableView.reloadData()
 //                }
@@ -168,7 +170,6 @@ final class CardsViewModel: ObservableObject {
                     }
                 }
 
-
 //                DispatchQueue.main.async {
 //                    self.tableView.reloadData()
 //                }
@@ -176,7 +177,7 @@ final class CardsViewModel: ObservableObject {
         }
     }
 
-    private func sportNames(for videoSports: [VideoSport]?) -> String {
+    func sportNames(for videoSports: [VideoSport]?) -> String {
         guard let videoSports = videoSports else { return "<no sports>" }
 
         var sportNames = [String]()
@@ -189,7 +190,7 @@ final class CardsViewModel: ObservableObject {
         return sportNames.joined(separator: ", ")
     }
 
-    private func schoolNames(for videoSchools: [VideoSchool]?) -> String {
+    func schoolNames(for videoSchools: [VideoSchool]?) -> String {
         guard let videoSchools = videoSchools else { return "<no schools>" }
         var sportNames = [String]()
 
@@ -214,6 +215,4 @@ final class CardsViewModel: ObservableObject {
 
         return sportName
     }
-
-
 }
