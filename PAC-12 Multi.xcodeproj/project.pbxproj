@@ -3,23 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		FDD759F926CF48D500B26739 /* PAC_12_MultiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD759F826CF48D500B26739 /* PAC_12_MultiApp.swift */; };
-		FDD759FB26CF48D500B26739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD759FA26CF48D500B26739 /* ContentView.swift */; };
 		FDD759FD26CF48D700B26739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD759FC26CF48D700B26739 /* Assets.xcassets */; };
 		FDD75A0026CF48D700B26739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD759FF26CF48D700B26739 /* Preview Assets.xcassets */; };
+		FDD75A0F26CF496100B26739 /* PAC_12_DesktopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A0E26CF496100B26739 /* PAC_12_DesktopApp.swift */; };
+		FDD75A1326CF496200B26739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A1226CF496200B26739 /* Assets.xcassets */; };
+		FDD75A1626CF496200B26739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A1526CF496200B26739 /* Preview Assets.xcassets */; };
+		FDD75A2526CF497F00B26739 /* PAC_12_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A2426CF497F00B26739 /* PAC_12_MobileApp.swift */; };
+		FDD75A2926CF497F00B26739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A2826CF497F00B26739 /* Assets.xcassets */; };
+		FDD75A2C26CF497F00B26739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A2B26CF497F00B26739 /* Preview Assets.xcassets */; };
+		FDD75A5926CFD5C800B26739 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A5526CFD5C800B26739 /* CardsViewController.swift */; };
+		FDD75A6226CFD61500B26739 /* Cards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A6126CFD61500B26739 /* Cards.storyboard */; };
+		FDD75A6B26CFD67A00B26739 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FDD75A6A26CFD67A00B26739 /* SDWebImage */; };
+		FDD75A7126CFD69700B26739 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FDD75A7026CFD69700B26739 /* SDWebImage */; };
+		FDD75A7326CFD6A300B26739 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FDD75A7226CFD6A300B26739 /* SDWebImage */; };
+		FDD75A7E26CFD7AF00B26739 /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7B26CFD7AF00B26739 /* Sports.swift */; };
+		FDD75A7F26CFD7AF00B26739 /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7B26CFD7AF00B26739 /* Sports.swift */; };
+		FDD75A8026CFD7AF00B26739 /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7B26CFD7AF00B26739 /* Sports.swift */; };
+		FDD75A8126CFD7AF00B26739 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7C26CFD7AF00B26739 /* Videos.swift */; };
+		FDD75A8226CFD7AF00B26739 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7C26CFD7AF00B26739 /* Videos.swift */; };
+		FDD75A8326CFD7AF00B26739 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7C26CFD7AF00B26739 /* Videos.swift */; };
+		FDD75A8426CFD7AF00B26739 /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7D26CFD7AF00B26739 /* Schools.swift */; };
+		FDD75A8526CFD7AF00B26739 /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7D26CFD7AF00B26739 /* Schools.swift */; };
+		FDD75A8626CFD7AF00B26739 /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A7D26CFD7AF00B26739 /* Schools.swift */; };
+		FDD75A8B26CFD7BA00B26739 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A8A26CFD7BA00B26739 /* NetworkService.swift */; };
+		FDD75A8C26CFD7BA00B26739 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A8A26CFD7BA00B26739 /* NetworkService.swift */; };
+		FDD75A8D26CFD7BA00B26739 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A8A26CFD7BA00B26739 /* NetworkService.swift */; };
+		FDD75A9A26CFD7F400B26739 /* alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A9926CFD7F400B26739 /* alert.mp3 */; };
+		FDD75A9B26CFD7F400B26739 /* alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A9926CFD7F400B26739 /* alert.mp3 */; };
+		FDD75A9C26CFD7F400B26739 /* alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDD75A9926CFD7F400B26739 /* alert.mp3 */; };
+		FDD75AC226CFD8BF00B26739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD75AC126CFD8BF00B26739 /* Assets.xcassets */; };
+		FDD75AC326CFD8BF00B26739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD75AC126CFD8BF00B26739 /* Assets.xcassets */; };
+		FDD75AC426CFD8BF00B26739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD75AC126CFD8BF00B26739 /* Assets.xcassets */; };
+		FDD75AD126CFDA3D00B26739 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75A9226CFD7E500B26739 /* UIKit+Extensions.swift */; };
+		FDD75B0B26CFE3E900B26739 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B0A26CFE3E900B26739 /* CardsViewModel.swift */; };
+		FDD75B0C26CFE3E900B26739 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B0A26CFE3E900B26739 /* CardsViewModel.swift */; };
+		FDD75B0D26CFE3E900B26739 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B0A26CFE3E900B26739 /* CardsViewModel.swift */; };
+		FDD75B1626CFE69900B26739 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B1526CFE69900B26739 /* Cards.swift */; };
+		FDD75B1726CFE69900B26739 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B1526CFE69900B26739 /* Cards.swift */; };
+		FDD75B1B26CFE78900B26739 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75B1526CFE69900B26739 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDD759F526CF48D500B26739 /* PAC-12 Multi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAC-12 Multi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD759F826CF48D500B26739 /* PAC_12_MultiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAC_12_MultiApp.swift; sourceTree = "<group>"; };
-		FDD759FA26CF48D500B26739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDD759FC26CF48D700B26739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD759FF26CF48D700B26739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDD75A0126CF48D700B26739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD75A0C26CF496100B26739 /* PAC-12 Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAC-12 Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD75A0E26CF496100B26739 /* PAC_12_DesktopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAC_12_DesktopApp.swift; sourceTree = "<group>"; };
+		FDD75A1226CF496200B26739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD75A1526CF496200B26739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDD75A1726CF496200B26739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD75A1826CF496200B26739 /* PAC_12_Desktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PAC_12_Desktop.entitlements; sourceTree = "<group>"; };
+		FDD75A2226CF497F00B26739 /* PAC-12 Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAC-12 Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD75A2426CF497F00B26739 /* PAC_12_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAC_12_MobileApp.swift; sourceTree = "<group>"; };
+		FDD75A2826CF497F00B26739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD75A2B26CF497F00B26739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDD75A2D26CF497F00B26739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD75A5526CFD5C800B26739 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		FDD75A6126CFD61500B26739 /* Cards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cards.storyboard; sourceTree = "<group>"; };
+		FDD75A7B26CFD7AF00B26739 /* Sports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
+		FDD75A7C26CFD7AF00B26739 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		FDD75A7D26CFD7AF00B26739 /* Schools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schools.swift; sourceTree = "<group>"; };
+		FDD75A8A26CFD7BA00B26739 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FDD75A9226CFD7E500B26739 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		FDD75A9926CFD7F400B26739 /* alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alert.mp3; sourceTree = "<group>"; };
+		FDD75AC126CFD8BF00B26739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD75B0A26CFE3E900B26739 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		FDD75B1526CFE69900B26739 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD75A6B26CFD67A00B26739 /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD75A0926CF496100B26739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD75A7126CFD69700B26739 /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD75A1F26CF497F00B26739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD75A7326CFD6A300B26739 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +109,12 @@
 		FDD759EC26CF48D500B26739 = {
 			isa = PBXGroup;
 			children = (
+				FDD75A7726CFD6B900B26739 /* Shared */,
 				FDD759F726CF48D500B26739 /* PAC-12 Multi */,
+				FDD75A0D26CF496100B26739 /* PAC-12 Desktop */,
+				FDD75A2326CF497F00B26739 /* PAC-12 Mobile */,
 				FDD759F626CF48D500B26739 /* Products */,
+				FDD75A6F26CFD69700B26739 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				FDD759F526CF48D500B26739 /* PAC-12 Multi.app */,
+				FDD75A0C26CF496100B26739 /* PAC-12 Desktop.app */,
+				FDD75A2226CF497F00B26739 /* PAC-12 Mobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				FDD759F826CF48D500B26739 /* PAC_12_MultiApp.swift */,
-				FDD759FA26CF48D500B26739 /* ContentView.swift */,
 				FDD759FC26CF48D700B26739 /* Assets.xcassets */,
 				FDD75A0126CF48D700B26739 /* Info.plist */,
 				FDD759FE26CF48D700B26739 /* Preview Content */,
@@ -67,6 +145,126 @@
 				FDD759FF26CF48D700B26739 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDD75A0D26CF496100B26739 /* PAC-12 Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A0E26CF496100B26739 /* PAC_12_DesktopApp.swift */,
+				FDD75A1226CF496200B26739 /* Assets.xcassets */,
+				FDD75A1726CF496200B26739 /* Info.plist */,
+				FDD75A1826CF496200B26739 /* PAC_12_Desktop.entitlements */,
+				FDD75A1426CF496200B26739 /* Preview Content */,
+			);
+			path = "PAC-12 Desktop";
+			sourceTree = "<group>";
+		};
+		FDD75A1426CF496200B26739 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A1526CF496200B26739 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDD75A2326CF497F00B26739 /* PAC-12 Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A2426CF497F00B26739 /* PAC_12_MobileApp.swift */,
+				FDD75A2826CF497F00B26739 /* Assets.xcassets */,
+				FDD75A2D26CF497F00B26739 /* Info.plist */,
+				FDD75A5426CFD58400B26739 /* ViewControllers */,
+				FDD75A9126CFD7CB00B26739 /* UIKit Extensions */,
+				FDD75A2A26CF497F00B26739 /* Preview Content */,
+			);
+			path = "PAC-12 Mobile";
+			sourceTree = "<group>";
+		};
+		FDD75A2A26CF497F00B26739 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A2B26CF497F00B26739 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDD75A5426CFD58400B26739 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A6126CFD61500B26739 /* Cards.storyboard */,
+				FDD75A5526CFD5C800B26739 /* CardsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FDD75A6F26CFD69700B26739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD75A7726CFD6B900B26739 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75B0926CFE3AB00B26739 /* View Models */,
+				FDD75A7826CFD6C500B26739 /* Data */,
+				FDD75A7926CFD6CC00B26739 /* Network */,
+				FDD75B1126CFE4E000B26739 /* SwiftUI Views */,
+				FDD75A7A26CFD6D400B26739 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FDD75A7826CFD6C500B26739 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A7D26CFD7AF00B26739 /* Schools.swift */,
+				FDD75A7B26CFD7AF00B26739 /* Sports.swift */,
+				FDD75A7C26CFD7AF00B26739 /* Videos.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FDD75A7926CFD6CC00B26739 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A8A26CFD7BA00B26739 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FDD75A7A26CFD6D400B26739 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A9926CFD7F400B26739 /* alert.mp3 */,
+				FDD75AC126CFD8BF00B26739 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDD75A9126CFD7CB00B26739 /* UIKit Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75A9226CFD7E500B26739 /* UIKit+Extensions.swift */,
+			);
+			path = "UIKit Extensions";
+			sourceTree = "<group>";
+		};
+		FDD75B0926CFE3AB00B26739 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75B0A26CFE3E900B26739 /* CardsViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		FDD75B1126CFE4E000B26739 /* SwiftUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDD75B1526CFE69900B26739 /* Cards.swift */,
+			);
+			path = "SwiftUI Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,8 +283,51 @@
 			dependencies = (
 			);
 			name = "PAC-12 Multi";
+			packageProductDependencies = (
+				FDD75A6A26CFD67A00B26739 /* SDWebImage */,
+			);
 			productName = "PAC-12 Multi";
 			productReference = FDD759F526CF48D500B26739 /* PAC-12 Multi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD75A0B26CF496100B26739 /* PAC-12 Desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD75A1926CF496200B26739 /* Build configuration list for PBXNativeTarget "PAC-12 Desktop" */;
+			buildPhases = (
+				FDD75A0826CF496100B26739 /* Sources */,
+				FDD75A0926CF496100B26739 /* Frameworks */,
+				FDD75A0A26CF496100B26739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PAC-12 Desktop";
+			packageProductDependencies = (
+				FDD75A7026CFD69700B26739 /* SDWebImage */,
+			);
+			productName = "PAC-12 Desktop";
+			productReference = FDD75A0C26CF496100B26739 /* PAC-12 Desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD75A2126CF497F00B26739 /* PAC-12 Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD75A2E26CF497F00B26739 /* Build configuration list for PBXNativeTarget "PAC-12 Mobile" */;
+			buildPhases = (
+				FDD75A1E26CF497F00B26739 /* Sources */,
+				FDD75A1F26CF497F00B26739 /* Frameworks */,
+				FDD75A2026CF497F00B26739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PAC-12 Mobile";
+			packageProductDependencies = (
+				FDD75A7226CFD6A300B26739 /* SDWebImage */,
+			);
+			productName = "PAC-12 Mobile";
+			productReference = FDD75A2226CF497F00B26739 /* PAC-12 Mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,6 +342,12 @@
 					FDD759F426CF48D500B26739 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					FDD75A0B26CF496100B26739 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FDD75A2126CF497F00B26739 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = FDD759F026CF48D500B26739 /* Build configuration list for PBXProject "PAC-12 Multi" */;
@@ -112,11 +359,16 @@
 				Base,
 			);
 			mainGroup = FDD759EC26CF48D500B26739;
+			packageReferences = (
+				FDD75A6926CFD67A00B26739 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = FDD759F626CF48D500B26739 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FDD759F426CF48D500B26739 /* PAC-12 Multi */,
+				FDD75A0B26CF496100B26739 /* PAC-12 Desktop */,
+				FDD75A2126CF497F00B26739 /* PAC-12 Mobile */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +380,31 @@
 			files = (
 				FDD75A0026CF48D700B26739 /* Preview Assets.xcassets in Resources */,
 				FDD759FD26CF48D700B26739 /* Assets.xcassets in Resources */,
+				FDD75AC226CFD8BF00B26739 /* Assets.xcassets in Resources */,
+				FDD75A9A26CFD7F400B26739 /* alert.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD75A0A26CF496100B26739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD75A1626CF496200B26739 /* Preview Assets.xcassets in Resources */,
+				FDD75A1326CF496200B26739 /* Assets.xcassets in Resources */,
+				FDD75AC326CFD8BF00B26739 /* Assets.xcassets in Resources */,
+				FDD75A9B26CFD7F400B26739 /* alert.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD75A2026CF497F00B26739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD75A2C26CF497F00B26739 /* Preview Assets.xcassets in Resources */,
+				FDD75A2926CF497F00B26739 /* Assets.xcassets in Resources */,
+				FDD75A6226CFD61500B26739 /* Cards.storyboard in Resources */,
+				FDD75A9C26CFD7F400B26739 /* alert.mp3 in Resources */,
+				FDD75AC426CFD8BF00B26739 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +415,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD759FB26CF48D500B26739 /* ContentView.swift in Sources */,
+				FDD75B0B26CFE3E900B26739 /* CardsViewModel.swift in Sources */,
+				FDD75A8126CFD7AF00B26739 /* Videos.swift in Sources */,
+				FDD75B1626CFE69900B26739 /* Cards.swift in Sources */,
+				FDD75A8426CFD7AF00B26739 /* Schools.swift in Sources */,
+				FDD75A7E26CFD7AF00B26739 /* Sports.swift in Sources */,
+				FDD75A8B26CFD7BA00B26739 /* NetworkService.swift in Sources */,
 				FDD759F926CF48D500B26739 /* PAC_12_MultiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD75A0826CF496100B26739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD75B0C26CFE3E900B26739 /* CardsViewModel.swift in Sources */,
+				FDD75A8226CFD7AF00B26739 /* Videos.swift in Sources */,
+				FDD75B1726CFE69900B26739 /* Cards.swift in Sources */,
+				FDD75A8526CFD7AF00B26739 /* Schools.swift in Sources */,
+				FDD75A7F26CFD7AF00B26739 /* Sports.swift in Sources */,
+				FDD75A8C26CFD7BA00B26739 /* NetworkService.swift in Sources */,
+				FDD75A0F26CF496100B26739 /* PAC_12_DesktopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD75A1E26CF497F00B26739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD75A8626CFD7AF00B26739 /* Schools.swift in Sources */,
+				FDD75AD126CFDA3D00B26739 /* UIKit+Extensions.swift in Sources */,
+				FDD75A2526CF497F00B26739 /* PAC_12_MobileApp.swift in Sources */,
+				FDD75A8026CFD7AF00B26739 /* Sports.swift in Sources */,
+				FDD75B1B26CFE78900B26739 /* Cards.swift in Sources */,
+				FDD75B0D26CFE3E900B26739 /* CardsViewModel.swift in Sources */,
+				FDD75A8326CFD7AF00B26739 /* Videos.swift in Sources */,
+				FDD75A5926CFD5C800B26739 /* CardsViewController.swift in Sources */,
+				FDD75A8D26CFD7BA00B26739 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +584,7 @@
 				DEVELOPMENT_TEAM = QS8KJZDHX6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "PAC-12 Multi/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,12 +606,106 @@
 				DEVELOPMENT_TEAM = QS8KJZDHX6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "PAC-12 Multi/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pac12.app.PAC-12-Multi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDD75A1A26CF496200B26739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PAC-12 Desktop/PAC_12_Desktop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PAC-12 Desktop/Preview Content\"";
+				DEVELOPMENT_TEAM = QS8KJZDHX6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PAC-12 Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pac12.app.PAC-12-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDD75A1B26CF496200B26739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PAC-12 Desktop/PAC_12_Desktop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PAC-12 Desktop/Preview Content\"";
+				DEVELOPMENT_TEAM = QS8KJZDHX6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PAC-12 Desktop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pac12.app.PAC-12-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FDD75A2F26CF497F00B26739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PAC-12 Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = QS8KJZDHX6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PAC-12 Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pac12.app.PAC-12-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD75A3026CF497F00B26739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PAC-12 Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = QS8KJZDHX6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PAC-12 Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pac12.app.PAC-12-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +733,54 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FDD75A1926CF496200B26739 /* Build configuration list for PBXNativeTarget "PAC-12 Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD75A1A26CF496200B26739 /* Debug */,
+				FDD75A1B26CF496200B26739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD75A2E26CF497F00B26739 /* Build configuration list for PBXNativeTarget "PAC-12 Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD75A2F26CF497F00B26739 /* Debug */,
+				FDD75A3026CF497F00B26739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDD75A6926CFD67A00B26739 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDD75A6A26CFD67A00B26739 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDD75A6926CFD67A00B26739 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		FDD75A7026CFD69700B26739 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDD75A6926CFD67A00B26739 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		FDD75A7226CFD6A300B26739 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDD75A6926CFD67A00B26739 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FDD759ED26CF48D500B26739 /* Project object */;
 }
